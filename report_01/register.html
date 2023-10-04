@@ -11,60 +11,60 @@
         <p>*필수 입력 항목</p>
         <p>기본 정보</p>
 
-        <!-- 이름 입력 요소 (크기: 8자) -->
+        <!-- 이름 입력 요소 -->
         <label for="name">이름*</label>
-        <input type="text" id="name" name="name" maxlength="8" required>
+        <input type="text" id="name" name="name" size="8" required>
 
         <br>
 
-        <!-- 이메일 입력 요소 (크기: 15), placeholder 사용 -->
+        <!-- 이메일 입력 요소 -->
         <label for="email">이메일*</label>
-        <input type="email" id="email" name="email" maxlength="15" placeholder="id@domain.com" required>
+        <input type="email" id="email" name="email" size="15" placeholder="id@domain.com" required>
 
         <br>
 
-        <!-- 암호 입력 요소 (크기: 12자) -->
+        <!-- 암호 입력 요소 -->
         <label for="password">암호*</label>
-        <input type="password" id="password" name="password" maxlength="12" required>
+        <input type="password" id="password" name="password"  size="12" required>
 
         <br>
 
-        <!-- 암호 확인 입력 요소 (크기: 12자) -->
+        <!-- 암호 확인 입력 요소 -->
         <label for="confirm_password">암호 확인*</label>
-        <input type="password" id="confirm_password" name="confirm_password" maxlength="12" required>
+        <input type="password" id="confirm_password" name="confirm_password" size="12" required>
 
         <br>
 
-        <!-- 모바일 폰 입력 요소 (크기: 13자), placeholder 사용 -->
+        <!-- 모바일 폰 입력 요소 -->
         <label for="mobile_phone">모바일 폰*</label>
-        <input type="tel" id="mobile_phone" name="mobile_phone" maxlength="13" placeholder="010-0000-0000" required>
+        <input type="tel" id="mobile_phone" name="mobile_phone" size="13" placeholder="010-0000-0000" required>
 
         <br>
 
-        <!-- 개인 홈페이지 주소 입력 요소 (크기: 30자), placeholder 사용 -->
+        <!-- 개인 홈페이지 주소 입력 요소 -->
         <label for="personal_website">개인 홈페이지</label>
-        <input type="url" id="personal_website" name="personal_website" maxlength="30" placeholder="http://" required>
+        <input type="url" id="personal_website" name="personal_website" size="30" placeholder="http://" >
 
         <br>
 
-        <!-- 주소 입력 요소 (크기: 30자) -->
+        <!-- 주소 입력 요소 -->
         <label for="address">주소*</label>
-        <input type="text" id="address" name="address" maxlength="30" required>
+        <input type="text" id="address" name="address" size="30" required>
 
         <br>
 
         <p>학 력</p>
 
 
-        <!-- 학교명 입력 요소 (크기: 12) -->
+        <!-- 학교명 입력 요소 -->
         <label for="school_name">학교명*</label>
-        <input type="text" id="school_name" name="school_name" maxlength="12">
+        <input type="text" id="school_name" name="school_name" size="12" required>
 
         <br>
 
-        <!-- 전공 입력 요소 (크기: 12) -->
+        <!-- 전공 입력 요소  -->
         <label for="major">전공*</label>
-        <input type="text" id="major" name="major" maxlength="12">
+        <input type="text" id="major" name="major" size="12" required>
 
         <br>
 
@@ -80,30 +80,30 @@
 
         <!-- 졸업 (예정)일 날짜 입력 요소 -->
         <label for="graduation_date">졸업 (예정)일</label>
-        <input type="date" id="graduation_date" name="graduation_date" required>
+        <input type="date" id="graduation_date" name="graduation_date">
 
         <br>
         <p>업무 경력</p>
 
-        <!-- 근무업체명 입력 요소 (크기: 20자) -->
+        <!-- 근무업체명 입력 요소 -->
         <label for="company_name">근무업체명</label>
-        <input type="text" id="company_name" name="company_name" maxlength="20">
+        <input type="text" id="company_name" name="company_name" size="20">
 
         <br>
 
-        <!-- 직위 입력 요소 (크기: 10자) -->
+        <!-- 직위 입력 요소  -->
         <label for="position">직위</label>
-        <input type="text" id="position" name="position" maxlength="10">
+        <input type="text" id="position" name="position" size="10">
 
         <br>
 
-        <!-- 담당 업무 여러줄 텍스트 입력 요소 (행: 10줄, 열: 80) -->
+        <!-- 담당 업무 여러줄 텍스트 입력 요소  -->
         <label for="responsibilities">담당 업무</label>
         <textarea id="responsibilities" name="responsibilities" rows="10" cols="80" placeholder="이전 업체에서 담당한 업무를 기술하시오."></textarea>
 
         <br>
 
-        <!-- 근무 년수 숫자 입력 스핀 버튼 (최소값: 0, 최대값: 10, step: 0.5) -->
+        <!-- 근무 년수 숫자 입력 스핀 버튼  -->
         <label for="years_of_experience">근무 년수</label>
         <input type="number" id="years_of_experience" name="years_of_experience" min="0" max="10" step="0.5">
         <div style="display: inline-block;">년</div>
@@ -115,13 +115,13 @@
         <label for="attachment">첨부 파일</label>
         <input type="file" id="attachment" name="attachment">
 
-        <br>
-
+        <p>
             <!-- 제출 버튼 -->
             <input type="submit" value="제출">
 
             <!-- 재작성 버튼 -->
             <input type="reset" value="재작성">
+        </p>
 
 
 

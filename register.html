@@ -14,10 +14,10 @@
         margin-left:8px;
         text-align:right;
         width:130px;
-        padding:8px;
+        padding-right :8px;
     }
 
-    #good {margin-left : 200px;}
+    .good {margin-left : 200px;}
     .re{color:red;}
 </style>
 
@@ -144,11 +144,11 @@
 
         <!-- 첨부 파일 file 입력 요소 -->
         <div>
-        첨부 파일
-        <input type="file" name="attachment" >
+        <label  class="happy" for="file_">첨부 파일</label>
+        <input id="file_" type="file" name="attachment" >
         </div>
 
-        <div id="good">
+        <div class="good">
             <!-- 제출 버튼 -->
             <input type="submit" value="제출">
 

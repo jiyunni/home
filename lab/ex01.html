@@ -3,11 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>testpage</title>
+    <style>
+        div#page{border: 1px solid black;
+        overflow:auto;}
+        header{background-color:yellow;
+            border: 1px solid blue;
+        }
+        nav{width:150px;
+        float:left;
+        background-color:red;
+        height:300px;
+            border: 1px solid white;
+        }
+        section{margin-left:150px;
+        height:300px;
+        border:1px solid green;}
+        footer{clear:both;
+        background-color:skyblue;
+        border: 1px solid red;}
+
+    </style>
 </head>
 <body>
-<h2>testpage</h2>
-<hr>
-<p>hello welcome </p>
-
+<div id="page">
+    <header>
+        <p class="title">header</p>
+    </header>
+    <nav>
+        <p class="title">nav</p>
+    </nav>
+    <section>
+        <p class="title">section</p>
+    </section>
+    <footer class="title">foot</footer>
+</div>
 </body>
 </html>

@@ -12,7 +12,7 @@
     <h3 class="text-center mt-3">취업 정보 계정 만들기</h3>
     <hr>
 
-        <form name="resume" method="POST">
+        <form action="...">
             <div class="m-3"><span class="text-danger">*</span>필수 입력 항목</div>
 
             <p class="text-bg-primary p-2">기본 정보</p>
@@ -20,46 +20,46 @@
 
 
             <div class="row">
-                <div class="col-sm-6 p-2">
+                <div class="col-sm-6 mb-3">
                    <label class="form-label" for="name">이름<span class="text-danger">*</span></label>
                     <input type="text" class="form-control" id="name" name="name"  required>
                 </div>
-                <div class="col-sm-6 p-2">
+                <div class="col-sm-6 mb-3">
                     <label class="form-label" for="mobile_phone">모바일 폰<span class="text-danger">*</span></label>
                     <input type="tel" class="form-control" id="mobile_phone" name="mobile_phone" placeholder="010-0000-0000" required>
                 </div>
-                <div class="col-sm-6 p-2">
+                <div class="col-sm-6 mb-3">
                     <label  class="form-label" for="email">이메일<span class="text-danger">*</span></label>
                     <input type="email" class="form-control" id="email" name="email" placeholder="id@domain.com" required>
                 </div>
-                <div class="col-sm-6 p-2">
+                <div class="col-sm-6 mb-3">
                 <label  class="form-label" for="web">홈 페이지</label>
                 <input type="url" class="form-control" id="web" name="web" placeholder="http://" >
                 </div>
-                <div class="col-sm-6 p-2">
+                <div class="col-sm-6 mb-3">
                     <label  class="form-label" for="password">암호<span class="text-danger">*</span></label>
                     <input type="password" class="form-control" id="password" name="password" placeholder="암호" required>
                 </div>
-                <div class="col-sm-6 p-2">
+                <div class="col-sm-6 mb-3">
                     <label  class="form-label"  for="address">주소<span class="text-danger">*</span></label>
                     <input type="text" class="form-control" id="address" name="address" required>
                 </div>
-                <div class="col-sm-6 p-2">
+                <div class="col-sm-6 mb-5">
                     <label  class="form-label" for="confirm_password">암호 확인<span class="text-danger">*</span></label>
                     <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="암호 확인"required>
                 </div>
             </div>
 
-            <br>
+
 
 
             <p class="text-bg-success p-2">학력</p>
             <div class="row">
-                <div class="col-sm-6 p-2">
+                <div class="col-sm-6 mb-3">
                     <label  class="form-label" for="school_name">학교명<span class="text-danger">*</span></label>
                     <input type="text" class="form-control" id="school_name" name="school_name" required>
                 </div>
-                <div class="col-sm-6 p-2">
+                <div class="col-sm-6 mb-3">
                     <label class="form-label" for="graduation_status">졸업 여부<span class="text-danger">*</span></label>
                     <select class="form-select" id="graduation_status" name="graduation_status" required>
                         <option value="">--- 선택 ---</option>
@@ -67,72 +67,52 @@
                         <option value="졸업">졸업</option>
                     </select>
                 </div>
-                <div class="col-sm-6 p-2">
+                <div class="col-sm-6 mb-3">
                     <label  class="form-label" for="major">전공<span class="text-danger">*</span></label>
                     <input type="text" class="form-control" id="major" name="major" required>
                 </div>
-                <div class="col-sm-6 p-2">
+                <div class="col-sm-6 mb-5">
                     <label  class="form-label" for="graduation_date">졸업 (예정)년도<span class="text-danger">*</span></label>
                     <input type="date" class="form-control" id="graduation_date" name="graduation_date">
                 </div>
             </div>
 
-            <br>
+
 
             <p class="text-bg-secondary p-2">업무경력</p>
-            <div class="d-flex">
-                <div class="flex-fill">최종 직위</div>
-                <div class="form-check flex-fill">
-                    <input class="form-check-input" type="radio" name="final" id="saa" value="sa">
-                    <label class="form-check-label" for="saa">사원급</label>
-                </div>
-                <div class="form-check flex-fill">
-                    <input class="form-check-input" type="radio" name="final" id="dae-gaa" value="dae-ga">
-                    <label class="form-check-label" for="dae-gaa">대리~과장</label>
-                </div>
-                <div class="form-check flex-fill">
-                    <input class="form-check-input" type="radio" name="final" id="chaa" value="cha">
-                    <label class="form-check-label" for="chaa">차장급 이상</label>
-                </div>
-                <div class="form-check flex-fill">
-                    <input class="form-check-input" type="radio" name="final" id="ima" value="im">
-                    <label class="form-check-label" for="ima">임원급</label>
-                </div>
-            </div>
 
-            <br>
-<!--
-            <div class="row">
-                <div class="col-2">최종 직위</div>
-                <div class="form-check col-2">
+
+            <div class="row ">
+                <div class="col-auto">최종 직위</div>
+                <div class="form-check col-auto">
                     <input class="form-check-input" type="radio" name="final" id="sa" value="sa">
                     <label class="form-check-label" for="sa">사원급</label>
                 </div>
 
-                <div class="form-check col-2">
+                <div class="form-check col-auto">
                     <input class="form-check-input" type="radio" name="final" id="dae-ga" value="dae-ga">
                     <label class="form-check-label" for="dae-ga">대리~과장</label>
                 </div>
 
-                <div class="form-check col-2">
+                <div class="form-check col-auto">
                     <input class="form-check-input" type="radio" name="final" id="cha" value="cha">
                     <label class="form-check-label" for="cha">차장급 이상</label>
                 </div>
 
-                <div class="form-check col-2">
+                <div class="form-check col-auto">
                     <input class="form-check-input" type="radio" name="final" id="im" value="im">
                     <label class="form-check-label" for="im">임원급</label>
                 </div>
 
 
--->
 
-            <div>
-                <label for="comment" class="form-label mt-3">주요 담당 업무</label>
-                <textarea rows="10" cols="80" class="form-control" id="comment" name="text" placeholder="담당했던 주요 업무를 기술하시오." ></textarea>
+
+            <div class="my-3">
+                <label for="comment" class="form-label">주요 담당 업무</label>
+                <textarea rows="10" class="form-control" id="comment" name="text" placeholder="담당했던 주요 업무를 기술하시오." ></textarea>
             </div>
 
-            <div class="form-group text-center m-4">
+            <div class="form-group text-center my-5">
                 <button type="submit" class="btn btn-outline-primary">제출</button>
                 <button type="reset" class="btn btn-outline-primary">재작성</button>
             </div>

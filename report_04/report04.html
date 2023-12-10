@@ -9,8 +9,6 @@
 
     <script>
         function transform() {
-            // id가 ‘digit’인 입력 요소의 값(2진수)을 읽어
-            // 16진수로 변환하여 그 수를 id가 ‘hexanum’인 입력 요소의 값으로 디스플레이하는 함수
             var binaryInput = document.getElementById('digit').value;
             var decimalValue = parseInt(binaryInput, 2);
             var hexValue = decimalValue.toString(16).toUpperCase();
@@ -18,12 +16,10 @@
         }
 
         function pascals() {
-    // id가 ‘size’인 입력 요소의 값을 읽어 해당 크기의 파스칼 삼각형을
-    // id가 ‘draw_area’인 영역에 그리는 기능의 함수
             var size = parseInt(document.getElementById('size').value);
             var drawArea = document.getElementById('draw_area');
 
-    // 파스칼 삼각형을 계산
+            // 파스칼 삼각형을 계산
             var pascalTriangle = [];
             for (var i = 0; i < size; i++) {
                 var row = [];

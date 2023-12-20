@@ -1,0 +1,209 @@
+/*aboutme*/
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.personal-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.personal-info-item {
+    margin-bottom: 15px;
+}
+
+.info-label {
+    font-weight: bold;
+    color: hotpink;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.info-content {
+    color: #333;
+}
+
+.season-photo {
+    height: 50px;
+}
+
+.season-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: hotpink;
+    margin-bottom: 20px;
+}
+
+.t {
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h2.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+hr {
+    background-color: #333;
+    height: 2px;
+    margin: 1rem 0;
+    border: none;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.col-sm-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ced4da;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.card-text{
+
+    text-align: center;
+}
+
+.card-title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.tt {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.sok {
+    font-size: 15px;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Adjust form styling */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add padding to form inputs and textarea */
+form input, form textarea {
+    padding: 10px;
+}
+
+/* Style submit button */
+form .btn {
+    display: block;
+    margin: auto;
+}
+
+form .btn:hover {
+    background-color: black;
+}
+
+/*report*/
+.report-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav{
+    background-color: #babbbc;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item:hover .nav-link {
+    font-weight: bold;
+}

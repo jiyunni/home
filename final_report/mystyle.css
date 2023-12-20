@@ -1,4 +1,5 @@
-/*aboutme*/
+
+/* Apply the font to an element */
 body {
     font-family: 'Noto Sans KR', sans-serif;
 }
@@ -64,6 +65,13 @@ img {
     margin-top: 50px;
 }
 
+.containerr {
+    max-width: 100%;
+    margin-top: 100px;
+
+
+}
+
 h2.section-title {
     font-size: 1.5rem;
     font-weight: bold;
@@ -112,7 +120,7 @@ li {
     max-width: 400px;
     margin: auto;
     padding: 20px;
-    background-color: #ced4da;
+    background-color: #d1d2d4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,7 +205,8 @@ form .btn:hover {
 }
 
 nav{
-    background-color: #babbbc;
+    background-color: indianred;
+    color:white;
     font-family: 'Noto Sans KR', sans-serif;
 
 }
@@ -206,4 +215,30 @@ nav{
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-item:hover .nav-link {
     font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.popo{
+    max-width: 50px
+}
+
+.tablest{
+    max-width: 800px;
+    margin: auto;
+}
+
+th, td {
+    text-align: center;
+}
+
+.footer {
+    background-color: #d1d2d4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 100px;
 }

@@ -15,17 +15,18 @@
         <script src="nav.js"></script>
     </header>
 
-    <section class="container mt-5">
+    <section id="page1" class="container mt-5">
+        <h2 class="section-title">MY_INTEREST1</h2>
         <div class="row">
             <div class="col-sm-6">
-                <h2 class="section-title">MY_INTEREST1</h2>
+
                 <hr>
                 <div data-include-path="carousel1.html"></div>
             </div>
             <div class="col-sm-6">
-                <p class="t">독서</p>
-                <p>2023년도에 읽은 책 중 3가지를 추천 합니다.</p>
-                <ul>
+                <h1 class="section-title text-center mt-3">독서</h1>
+                <p class="text-center mt-3 hobby">2023년도에 읽은 책 중 3가지를 추천 합니다.</p>
+                <ul class="text-left">
                     <li>1.역행자</li>
                     <li>2.달러구트 꿈 백화점</li>
                     <li>3.빅데이터 커리어 가이드 북</li>
@@ -34,23 +35,43 @@
         </div>
     </section>
 
-    <section class="container mt-5">
+    <section id="page2" class="container mt-5" style="display: none;">
+        <h2 class="section-title">MY_INTEREST2</h2>
         <div class="row">
             <div class="col-sm-6">
-                <h2 class="section-title">MY_INTEREST2</h2>
+
                 <hr>
                 <div data-include-path="carousel2.html"></div>
             </div>
             <div class="col-sm-6">
-                <p class="t">배드민턴</p>
+                <h1 class="section-title text-center mt-3">배드민턴</h1>
+                <p class="text-center mt-3 hobby">배드민턴 치는 것을 좋아해 교내 배드민턴 동아리에 가입했습니다.</p>
+                <p class="text-center mt-3 hobby">동아리 활동 중 여대교류전에 참가했던 경험을 소개합니다.</p>
+
             </div>
         </div>
     </section>
+
+    <div class="container mt-3 d-flex justify-content-center">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#page1" onclick="showPage('page1')">1</a></li>
+            <li class="page-item"><a class="page-link" href="#page2" onclick="showPage('page2')">2</a></li>
+        </ul>
+    </div>
 
     <!-- Include your custom footer -->
     <footer>
         <div id="footer" data-include-path="footer.html"></div>
         <script src="footer.js"></script>
     </footer>
+
+    <script>
+        function showPage(pageId) {
+            document.getElementById("page1").style.display = "none";
+            document.getElementById("page2").style.display = "none";
+
+            document.getElementById(pageId).style.display = "block";
+        }
+    </script>
 </body>
 </html>

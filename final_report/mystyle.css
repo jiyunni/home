@@ -53,15 +53,14 @@ img {
 
 
 .container {
+
     max-width: 800px;
     margin: auto;
-    margin-top: 50px;
 }
 
 .containerr {
     max-width: 100%;
     margin-top: 100px;
-
 
 }
 
@@ -151,11 +150,6 @@ body {
     background-color: #f8f9fa;
 }
 
-.container {
-    max-width: 600px;
-    margin: auto;
-    margin-top: 50px;
-}
 
 .section-title {
     text-align: center;
@@ -218,10 +212,6 @@ nav{
     max-width: 50px
 }
 
-.tablest{
-    max-width: 800px;
-    margin: auto;
-}
 
 th, td {
     text-align: center;
@@ -235,6 +225,7 @@ th, td {
     width: 100%;
     box-sizing: border-box;
     margin-top: 100px;
+
 }
 
 /*Dom*/

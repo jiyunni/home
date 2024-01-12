@@ -53,3 +53,13 @@ img {
 hr{
     margin-bottom: 40px;
 }
+
+nav{
+    background-color: #0f5132;
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}

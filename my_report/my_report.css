@@ -1,0 +1,100 @@
+    body{
+            margin: 0 auto; /* 가운데 정렬을 위한 스타일 */
+            max-width: 70%;
+    }
+    b{
+        font-size:20px;
+    }
+    span{
+        color:grey;
+        font-size:80%;
+    }
+    .row{
+        margin-bottom: 30px;
+    }
+
+    table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0; /* 여백 추가 */
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 4px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img{
+            width:180px;
+            height:200px;
+            text-align: center;
+        }
+    .centered-image {
+            display: inline-block; /* 이미지를 가운데에 정렬하기 위한 스타일 */
+        }
+
+    h1{
+        text-align: center;
+        font-weight: bold;
+        margin:30px;
+    }
+    li{
+        margin:10px;
+    }
+
+    hr{
+        color:black;
+        border: 1px solid;/* 수평선의 색상과 스타일 지정 */
+
+    }
+    .gong{
+        background-color: lightblue;
+    }
+
+    .gho{
+        background-color: blanchedalmond;
+    }
+
+    .aa {
+
+            color: #333; /* 링크 색상 변경 */
+            outline: none; /* 파란 테두리 제거 */
+        }
+
+
+    .name{
+         font-weight: bold;
+        font-size:25px;
+
+    }
+    .sc{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+            .container {
+            display: flex; /* Flexbox 레이아웃을 사용합니다. */
+            align-items: center; /* 수직 중앙 정렬을 합니다. */
+        }
+
+        .vertical-line {
+            width: 3px;
+            height: 110px; /* 세로선의 높이를 조절할 수 있습니다. */
+            background-color: black;
+            margin-right: 20px; /* 세로선 오른쪽 여백을 조절할 수 있습니다. */
+        }
+
+        .text {
+            max-width: 400px; /* 텍스트의 최대 너비를 설정할 수 있습니다. */
+        }
+
+        .img-with-border {
+    border: 3px solid black;
+    padding: 5px; /* 테두리와 이미지 사이의 간격을 주기 위해 padding 추가 */
+}
+
+        table{
+            font-size:80%
+        }
